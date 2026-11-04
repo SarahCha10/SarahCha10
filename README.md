@@ -45,6 +45,28 @@ Atuo também como **monitora de Matemática Discreta I**, o que me ajuda a organ
 
 ---
 
+## 🪪 Ficha
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+
+**🎓 Curso:** Ciência da Computação
+**🏫 Instituição:** Mackenzie
+**🧑‍🏫 Monitoria:** Matemática Discreta I
+
+    </td>
+    <td width="50%" valign="top">
+
+**🎯 Objetivo:** estágio em tecnologia, com abertura para diferentes áreas
+**💜 Foco atual:** programação, desenvolvimento e design de interfaces
+
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🦋 Minha jornada na tecnologia
 
 - **Projetos acadêmicos de programação e desenvolvimento** durante a graduação em Ciência da Computação.
@@ -117,13 +139,11 @@ Projetos de **programação e desenvolvimento** realizados durante a graduação
     <td width="50%" valign="top">
 
 ### ⚙️ Simulador multithread (Sistemas Operacionais)
-Projeto em grupo da disciplina **Sistemas Operacionais** (2026.2), em **C** com **pthreads**: produtores e consumidores sobre um buffer de capacidade limitada, disputando dois tipos de recurso escasso.
+Projeto em grupo da disciplina **Sistemas Operacionais** (2026.2), em que atuei como **colaboradora**. Em **C** com **pthreads**: produtores e consumidores sobre um buffer de capacidade limitada, disputando dois tipos de recurso escasso.
 
 **Destaques:** mutex e variáveis de condição, encerramento ordenado e reprodução controlada de deadlock, com evidência em log de eventos.
 
 **Ferramentas:** C, pthreads, Make, Python (verificação do log)
-
-🔗 **Repositório:** <!-- INSERIR: link do repositório do grupo -->
 
     </td>
   </tr>
