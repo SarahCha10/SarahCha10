@@ -105,6 +105,32 @@ Projeto em grupo da disciplina **Sistemas Operacionais** (2026.2): produtores e 
 
 ---
 
+## 💻 Projetos acadêmicos
+
+### ☕ Torre de Hanoi (Java)
+
+Jogo da Torre de Hanoi em **Java**, em que o usuário informa a quantidade de discos pelo terminal. Trabalho em grupo.
+
+**Ferramentas:** Java
+
+---
+
+### 🖼️ Codificador de Imagem Binária (C)
+
+Programa em **C** que lê uma imagem binária no formato PBM (P1), por arquivo ou entrada manual, e a codifica com divisão recursiva: cada bloco vira `P` (todo preto), `B` (todo branco) ou `X` (misto, dividido em quatro partes). Trabalho em dupla.
+
+**Ferramentas:** C
+
+---
+
+### 🚗 Simulador de multas de trânsito (Python)
+
+Programa em **Python** que classifica a infração pela velocidade registrada (leve, grave ou gravíssima), calcula multa e pontos na CNH, aplica dobro em caso de reincidência e simula o desconto de 20% para pagamento imediato. Trabalho em grupo.
+
+**Ferramentas:** Python
+
+---
+
 ## 🎓 Formação acadêmica e monitoria
 
 - 🎓 **Ciência da Computação** · Universidade Presbiteriana Mackenzie
