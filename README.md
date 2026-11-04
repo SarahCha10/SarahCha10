@@ -35,6 +35,14 @@
 
 ---
 
+<div align="center">
+
+**Navegação:** [Sobre](#-sobre-mim) · [Ficha](#-ficha) · [Jornada](#-minha-jornada-na-tecnologia) · [Tecnologias](#️-tecnologias-e-ferramentas) · [Projetos](#-projetos-em-destaque) · [Formação](#-formação-acadêmica-e-monitoria) · [Estatísticas](#-estatísticas-do-github) · [Contatos](#-contatos)
+
+</div>
+
+---
+
 ## 🌸 Sobre mim
 
 Sou estudante de **Ciência da Computação** no **Mackenzie**. Tenho interesse em tecnologia de forma ampla e busco oportunidades de estágio em diferentes áreas da computação.
