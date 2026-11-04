@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Banner de Sarah Chalom: estudante de Ciência da Computação no Mackenzie">
+  <style>
+    .float   { animation: float 7s ease-in-out infinite; }
+    .float2  { animation: float 9s ease-in-out infinite reverse; }
+    .twinkle { animation: twinkle 3s ease-in-out infinite; }
+    .draw    { stroke-dasharray: 700; stroke-dashoffset: 700; animation: draw 4.5s ease-out forwards; }
+    .fade    { opacity: 0; animation: fadein 1s ease-out forwards; }
+    .fade2   { opacity: 0; animation: fadein 1s ease-out 0.5s forwards; }
+    .fade3   { opacity: 0; animation: fadein 1s ease-out 1s forwards; }
+    .line    { opacity: 0; animation: fadein 0.6s ease-out forwards; }
+    .cursor  { animation: blink 1s steps(1) infinite; }
+    @keyframes float   { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-10px); } }
+    @keyframes twinkle { 0%,100% { opacity: 0.25; } 50% { opacity: 1; } }
+    @keyframes draw    { to { stroke-dashoffset: 0; } }
+    @keyframes fadein  { to { opacity: 1; } }
+    @keyframes blink   { 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .float, .float2, .twinkle, .cursor { animation: none; }
+      .draw { stroke-dashoffset: 0; animation: none; }
+      .fade, .fade2, .fade3, .line { opacity: 1; animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8A5C2"/>
+      <stop offset="0.5" stop-color="#C8A2E8"/>
+      <stop offset="1" stop-color="#7B4FD6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.8" cy="0.2" r="0.6">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B1650" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#1A0E33" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="24" fill="url(#glow)"/>
+
+  <!-- Formas decorativas -->
+  <g class="float"><circle cx="1100" cy="60" r="120" fill="#FFFFFF" fill-opacity="0.08"/></g>
+  <g class="float2">
+    <circle cx="1200" cy="260" r="80" fill="#FFFFFF" fill-opacity="0.12"/>
+    <circle cx="60" cy="300" r="140" fill="#FFFFFF" fill-opacity="0.06"/>
+  </g>
+
+  <!-- Circuito tecnológico -->
+  <g fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="2">
+    <path class="draw" d="M700 40 H840 V110 H980 V90 H1060"/>
+    <path class="draw" d="M860 306 H1010 V300 H1200"/>
+  </g>
+  <g fill="#FFFFFF">
+    <circle class="twinkle" cx="700" cy="40" r="5"/>
+    <circle class="twinkle" cx="840" cy="110" r="5" style="animation-delay:0.4s"/>
+    <circle class="twinkle" cx="980" cy="110" r="5" style="animation-delay:0.8s"/>
+    <circle class="twinkle" cx="860" cy="306" r="5" style="animation-delay:0.2s"/>
+    <circle class="twinkle" cx="1010" cy="300" r="5" style="animation-delay:1.0s"/>
+  </g>
+  <g fill="#FFFFFF" class="twinkle">
+    <path d="M1230 40 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z"/>
+    <path d="M620 150 l3 7 7 3 -7 3 -3 7 -3 -7 -7 -3 7 -3z" style="animation-delay:0.9s"/>
+  </g>
+
+  <!-- Janela de código -->
+  <g class="fade2">
+    <rect x="790" y="130" width="420" height="160" rx="16" fill="url(#win)" stroke="#FFFFFF" stroke-opacity="0.35"/>
+    <circle cx="814" cy="148" r="5" fill="#FF7A9A"/>
+    <circle cx="830" cy="148" r="5" fill="#FFD36B"/>
+    <circle cx="846" cy="148" r="5" fill="#8EE8B5"/>
+  </g>
+  <g font-family="Consolas, Menlo, 'Courier New', monospace" font-size="17" fill="#FFFFFF">
+    <text class="line" x="816" y="182" style="animation-delay:1.2s"><tspan fill="#F8A5C2">class</tspan> Estudante:</text>
+    <text class="line" x="840" y="208" style="animation-delay:1.8s">nome = <tspan fill="#8EE8B5">"Sarah Chalom"</tspan></text>
+    <text class="line" x="840" y="234" style="animation-delay:2.4s">curso = <tspan fill="#8EE8B5">"Ciência da Computação"</tspan></text>
+    <text class="line" x="840" y="260" style="animation-delay:3.0s">faculdade = <tspan fill="#8EE8B5">"Mackenzie"</tspan></text>
+    <text class="line" x="840" y="278" style="animation-delay:3.6s"><tspan class="cursor" fill="#FFFFFF">▌</tspan></text>
+  </g>
+
+  <!-- Textos -->
+  <text class="fade" x="80" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="72" font-weight="700" fill="#FFFFFF">Sarah Chalom</text>
+  <text class="fade2" x="84" y="200" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" fill="#FFFFFF" fill-opacity="0.95">Estudante de Ciência da Computação · Mackenzie</text>
+  <text class="fade3" x="84" y="245" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#FFFFFF" fill-opacity="0.85" letter-spacing="3">PYTHON · JAVA · C · SQL · SWIFT · FIGMA</text>
+</svg>
