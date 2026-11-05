@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="170" viewBox="0 0 820 170" role="img" aria-label="Estatísticas do GitHub">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFF8FC"/>
+      <stop offset="1" stop-color="#F3E8FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="820" height="170" rx="18" fill="url(#g)" stroke="#C8A2E8" stroke-width="2"/>
+  <text x="30" y="46" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#7B4FD6">Estatísticas do GitHub</text>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="130" y="110" font-size="40" font-weight="700" fill="#4A3B6B">2</text>
+    <text x="130" y="140" font-size="15" fill="#7B4FD6">repositórios públicos</text>
+    <text x="410" y="110" font-size="40" font-weight="700" fill="#4A3B6B">0</text>
+    <text x="410" y="140" font-size="15" fill="#7B4FD6">seguidores</text>
+    <text x="690" y="110" font-size="40" font-weight="700" fill="#4A3B6B">0</text>
+    <text x="690" y="140" font-size="15" fill="#7B4FD6">estrelas recebidas</text>
+  </g>
+  <text x="790" y="46" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#A78BFA">atualizado em 05/11/2026</text>
+</svg>
